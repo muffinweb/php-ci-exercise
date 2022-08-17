@@ -9,7 +9,7 @@ class SampleTest extends TestCase
 {
     public function testIfItCanTestProperly(){
         $expected = 2;
-        $this->assertEquals((1+2), $expected);
+        $this->assertEquals((1+1), $expected);
     }
 }
 
