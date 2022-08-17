@@ -20,6 +20,6 @@ jobs:
     - name: PHPUnit Testing
       run: ./vendor/bin/phpunit ./tests --colors
 
-    -name: PhpStan Code Analyzing
+    - name: PhpStan Code Analyzing
       run: ./vendor/bin/phpstan analyze ./index.php --level 5
     
