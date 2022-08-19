@@ -24,4 +24,4 @@ jobs:
       run: ./vendor/bin/phpstan analyze ./index.php --level 5
     
     - name: Custom Error Log
-    - run: php ./customTests/manuel-test.php
+    - run: ./vendor/bin/phpstan analyze ./customTests/manuel-test.php
