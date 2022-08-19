@@ -25,3 +25,4 @@ jobs:
     
     - name: Custom Error Log
     - run: ./vendor/bin/phpstan analyze ./customTests/manuel-test.php
+    
