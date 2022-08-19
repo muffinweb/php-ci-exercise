@@ -1,4 +1,4 @@
 <?php
 
-fwrite(STDERR, sprintf("Bu manuel olusturulmus bir hata mesajidir - Hata Kodu: %s", 1994));
+echo "Bu bir diger hata belirtme sekili olarak degisti";
 die(1);
